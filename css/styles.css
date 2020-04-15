@@ -16,11 +16,13 @@ body {
     padding: 0;
     background: linear-gradient(
         to top right,
-        rgb(0, 0, 0),
-        rgb(70, 69, 69) 50%,
-        #f0c287 85%,
-        aliceblue 90%
+        #000000,
+        rgb(70, 69, 69) 70%,
+        #f0c287 90%,
+        aliceblue 95.5%
     );
+
+    
 
     background-attachment: fixed;
 
@@ -28,7 +30,7 @@ body {
     font-family: cursive, "Franklin Gothic Medium", "Arial Narrow", Arial,
         sans-serif;
 
-    border: 3px solid aliceblue;
+    
 }
 
 hr {
