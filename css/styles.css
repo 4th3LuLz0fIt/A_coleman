@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1,
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: #f0c287;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(
+        to top right,
+        rgb(0, 0, 0),
+        rgb(70, 69, 69) 50%,
+        #f0c287 85%,
+        aliceblue 90%
+    );
+
+    background-attachment: fixed;
+
+    color: aliceblue;
+    font-family: cursive, "Franklin Gothic Medium", "Arial Narrow", Arial,
+        sans-serif;
+
+    border: 3px solid aliceblue;
+}
+
+hr {
+    border-style: none;
+    border-top: dashed #f0c287 5px;
+    height: 1.8px;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 680px;
+}
+
+/*Header Font Styling*/
+
+.header-section{
+    
+}
+
+#center-div > h1 {
+    font-size: 50px;
+}
+
+/*center-div-2*/
+
+#center-div-2 {
+    padding-top: 1px;
+}
+/*Section 1*/
+
+.section-1 {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    
+}
+
+.section-1 > .introMe {
+    padding-bottom: 50px;
+}
+
+.introText {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 232.5px;
+    
+}
+.introMe {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    margin-top: 150px;
+}
+
+.header-section {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: px;
+    bottom: px;
+    left: px;
+}
+
+.logo > img {
+    max-height: 600px;
+    max-width: 600px;
+    padding: 50px;
+    border-radius: 100%;
+}
+
+/*Section 2*/
+
+section.section-2 {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+div.myImg {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.myImg,
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    padding: px;
+}
+
+.someText2 {
+    padding-top: 50px;
+}
+
+#trade {
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+    color: #f0c287;
+    font-weight: normal;
+    font-size: large;
+}
+
+/*Skill section */
+
+.skill-section {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.skill-section,
+div,
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skills-text {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.skills-table, table {
+    position: relative;
+    left: 190.5px;
+    margin-bottom: 50px;
+}
+
+
+ }
+}
+table th {
+    border: 3px solid;
+}
+
+table td {
+    border: 2px solid;
+    padding: 10px;
+}
+
+/*Footer*/
+
+.fontawe-icon{
+    margin: 50px;
+    color: #f0c287;
+    text-align: center;
+}
+
+.fontawe-icon-footer{
+    
+    color: #f0c287;
+    position: absolute;
+    left: 633px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#github{
+    position: relative;
+    right: 200px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#linkedin{
+    position: relative;
+    bottom: 130px;
+    text-align: center;
+}
+
+#twitter{
+    position: relative;
+    bottom: 257px;
+    left: 200px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+/*@Media queries */
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        text-align: left;
+        margin-left: 12rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .introMe {
+        font-size: 10.5px;
+        margin-left: 12.5rem;
+        text-align: left;
+    }
+
+    .section-1 {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .logo > img {
+        height: 150px;
+        width: 150px;
+
+        opacity: %;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        text-align: left;
+        margin-left: 12rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .logo > img {
+        height: 150px;
+        width: 150px;
+
+        opacity: %;
+    }
+}
